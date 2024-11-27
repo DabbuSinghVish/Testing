@@ -1,25 +1,15 @@
 package UI;
 
 public class APIUtility {
-	
-	
-	
-	public static void ValidateStatus(String str)
 
-	{
-	
-		System.out.println(str);	
-		
+	public void m1() {
+		System.out.println("M1");
+
 	}
-	
-	
-	public static void main(String args[])
-	{
-		APIUtility.ValidateStatus("Dabbu");	
-		APIUtility.ValidateStatus("Dabbu1");
+
+	public void m2() {
+		System.out.println("M2");
+
 	}
-	
-	
-	
 
 }
